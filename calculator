@@ -1,0 +1,19 @@
+print("Hello mr/mrs..enter your numbers below")
+
+a = int(input("Enter the num: "))
+b = int(input("Enter you another num: "))
+print('Select operation: 1.add,2.sub,3.mul,4.moudulus,5.divide')
+c = int(input( ))
+if c ==  1:
+    print("addition is : ",a+b)
+elif c ==  2:
+    print("sub is : ",a-b)
+elif c == 3:
+    print("mul is : ",a*b)
+elif c == 4:
+    print("Modulus is : ",a%b)
+elif c == 5:
+    print("Divide is : ",a/b)
+
+else:
+    print("you have entered a invalid operation")
